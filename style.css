@@ -1,0 +1,33 @@
+/*
+Assistance from https://stackoverflow.com/a/7247189
+Aligning buttons evenly in a div
+*/
+body {
+    background-color: darkslategray;
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sounds {
+    margin: auto;
+    width: 50%;
+    padding: 0;
+    list-style-type: none;
+    display: table;
+}
+
+.sounds li {
+    width: 10px;
+    display: table-cell;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+button {
+    background-color: gainsboro;
+}
+
+button:hover {
+    background-color: gold;
+}
